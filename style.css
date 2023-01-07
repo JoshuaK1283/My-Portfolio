@@ -1,0 +1,96 @@
+h1 {
+    margin:30px;
+    padding:20px;
+    color:rgb(255, 255, 255);
+}
+/** {
+    border:solid;
+}
+*/
+.header *{
+    border:solid;
+}
+
+.header{
+    background-color: crimson;
+    display:flex;
+    justify-content:space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+.site-description{
+    display:flex;
+    flex-direction:column;
+    justify-content:first baseline;
+}
+p,h2{
+    text-align:center;
+}
+#self{
+    color: burlywood;
+    font-size: 30px;
+}
+#Kangaroo{
+    color:forestgreen;
+    font-size: 30px;
+}
+#shoot{
+    color:rgb(246, 161, 56);
+    font-size: 30px;
+}
+#pipe{
+    color:rgb(13, 86, 221);
+    font-size: 30px;
+}
+#archery{
+    color:coral;
+    font-size: 30px;
+}
+#fruit{
+    color:rgb(230, 73, 73);
+    font-size: 30px;
+}
+#game{
+    color:rgb(186, 192, 19);
+    font-size: 25px;
+}
+#design{
+    color:rgba(53, 210, 157, 0.726);
+    font-size:35px;
+}
+body{
+    background-color: antiquewhite;
+}
+.menu a:link{
+    color:white;
+}
+a:visited{
+    color:lightsalmon;
+}
+.menu a{
+    margin-left:20px;
+    
+}
+.item{
+    position:relative;
+    margin:10px;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.25;
+}
